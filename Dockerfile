@@ -1,8 +1,8 @@
- FROM node:latest as build
- WORKDIR /app
- COPY ./ ./
- RUN npm install --force
- RUN npm run build
+FROM node:latest as build
+WORKDIR /app
+COPY ./ ./
+RUN npm install --force
+RUN npm run build
 
 FROM nginx:1.25.3
 
