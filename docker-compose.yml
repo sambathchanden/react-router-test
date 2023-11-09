@@ -1,7 +1,1 @@
-version: "3.8"
-services:
-  reactjs-ui:
-    container_name: "reactjs-ui-cont"
-    image: registry.e-crops.co/frontend:1
-    ports:
-      - "3001:80"
+
